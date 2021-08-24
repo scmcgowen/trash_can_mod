@@ -1,0 +1,23 @@
+{
+  "item.rickroll_disc": {
+    "category": "item",
+    "subtitle": "item.rickroll_disc",
+    "sounds": [
+      {
+        "name": "rickrollmod:item/rickroll",
+        "stream": true
+      }
+    ]
+  },
+  "item.rickroll_disc_googletranslate": {
+    "category": "item",
+    "subtitle": "item.rickroll_disc_googletranslate",
+    "sounds": [
+      {
+        "name": "rickrollmod:item/rickroll_googletranslate",
+        "stream": true
+      }
+    ]
+  }
+
+}

@@ -1,7 +1,7 @@
 {
     "parent":"item/generated",
     "textures": {
-        "layer0": "rickrollmod:items/music_disc_rickroll"
+        "layer0": "trashcanmod:items/music_disc_rickroll"
 
     }
 }

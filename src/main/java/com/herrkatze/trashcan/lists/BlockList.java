@@ -13,7 +13,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class BlockList {
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS,Main.MOD_ID);
-    public static final RegistryObject<Block> TRASH_CAN = BLOCKS.register("trash_can",() -> new Block(AbstractBlock.Properties.create(Material.IRON).sound(SoundType.METAL)));
+    public static final RegistryObject<Block> TRASH_CAN = BLOCKS.register("trash_can",() -> new Block(AbstractBlock.Properties.create(Material.IRON).sound(SoundType.METAL).notSolid().setOpaque((bs,br,bp) -> false)));
 
 
 
